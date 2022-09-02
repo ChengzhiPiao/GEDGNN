@@ -1,0 +1,9 @@
+dgl==0.7.1
+matplotlib==3.3.4
+networkx==2.6.3
+numpy==1.20.3
+scipy==1.6.3
+texttable==1.6.3
+torch==1.8.1
+torch_geometric==1.7.0
+tqdm==4.62.2
