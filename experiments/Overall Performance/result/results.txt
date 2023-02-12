@@ -1,0 +1,32 @@
+# Sample Results
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	AIDS	train	1	11.402438163757324	2513.924
+```
+
+## Testing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mse	mae	acc	fea	rho	tau	pk10	pk20
+GedGNN	AIDS	test	300	0.362	87.52	4.573	0.043	0.953	0.132	0.108	0.43	0.755
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	AIDS	train	2	11.20996618270874	1648.412
+```
+
+## Testing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mse	mae	acc	fea	rho	tau	pk10	pk20
+GedGNN	AIDS	test	300	0.363	163.296	6.977	0.01	0.053	0.284	0.202	0.49	0.785
+```
+
+## Post-processing
+```
+model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mse	mae	acc	fea	rho	tau	pk10	pk20
+GedGNN	AIDS	test	300	11.286	-1.0	4.77	0.103	1.0	0.67	0.55	0.79	0.85
+```
+

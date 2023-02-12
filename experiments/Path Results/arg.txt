@@ -1,0 +1,11 @@
+# Running Parameters
+
+## Training and Testing
+```
+python src/main.py --model-name GedGNN --dataset AIDS --model-epoch-start 0 --model-epoch-end 20 --model-train 1
+```
+
+## Post-processing
+```
+python src/main.py --model-name GedGNN --dataset AIDS --model-epoch-start 20 --model-epoch-end 20 --model-train 0
+```

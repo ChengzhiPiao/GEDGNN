@@ -1,0 +1,11 @@
+# Running Parameters
+
+## Training and Testing
+```
+python src/main.py --model-name GedGNN --dataset PL25 --model-epoch-start 0 --model-epoch-end 100 --model-train 1 --num-delta-graphs 100 --num-testing-graphs 100 --delta-graph-seed 0
+```
+
+## Post-processing
+```
+python src/main.py --model-name GedGNN --dataset PL25 --model-epoch-start 100 --model-epoch-end 100 --model-train 0 --num-delta-graphs 100 --num-testing-graphs 100 --delta-graph-seed 0
+```

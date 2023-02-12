@@ -1,0 +1,138 @@
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	1	10.072200536727905	637.054
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	2	12.536248922348022	396.693
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	3	12.61012864112854	257.445
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	4	11.27799391746521	206.891
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	5	11.725640773773193	178.059
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	6	12.000174760818481	169.833
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	7	11.974229574203491	157.78
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	8	11.657096862792969	150.901
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	9	11.594699382781982	149.145
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	10	12.286319017410278	140.628
+```
+
+## Testing
+```
+#labels	model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mse	mloss	mae	ratio	mrate	acc	fea	rho	tau	pk10	pk20
+5	GedGNN	PL25	test_large	600	1.095	34.665	182.378	1.34	0.48	-1.0	0.23	0.32	0.1	0.076	0.117	0.2
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	11	13.39565658569336	132.513
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	12	14.356765031814575	128.889
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	13	13.0852632522583	122.097
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	14	12.828924655914307	120.938
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	15	12.829801797866821	111.637
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	16	13.51810073852539	107.593
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	17	12.996543645858765	106.232
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	18	13.573293209075928	100.832
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	19	14.278405904769897	98.396
+```
+
+## Training
+```
+model_name	dataset	graph_set	current_epoch	training_time(s/epoch)	training_loss(1000x)
+GedGNN	PL25	train	20	13.472888231277466	92.489
+```
+
+## Testing
+```
+#labels	model_name	dataset	graph_set	#testing_pairs	time_usage(s/100p)	mse	mloss	mae	ratio	mrate	acc	fea	rho	tau	pk10	pk20
+5	GedGNN	PL25	test_large	600	1.409	29.689	163.99	1.277	0.474	-1.0	0.238	0.352	0.033	0.025	0.05	0.175
+```
+
+## Post-processing
+```
+#labels	current_epoch	delta_graph_seed	model_name	#testing_pairs	gid	time_usage(s/100p)	Relative_GED_Error
+5	20	0	GedGNN	600	None	45.2	0.743
+```
+
