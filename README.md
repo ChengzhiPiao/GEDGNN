@@ -1,7 +1,7 @@
 # GEDGNN
 The code repository of paper "Computing Graph Edit Distance via Neural Graph Matching" for PVLDB 2023. This figure gives an overview of our GEDGNN model.
 
-![Image text](https://github.com/ChengzhiPiao/GEDGNN/blob/main/model.png)
+![Image text](https://github.com/ChengzhiPiao/GEDGNN/blob/master/model.png)
 
 ## Core Code
 We implement GEDGNN and other baseline machine learning models in `models.py` and `GedMatrix.py`. Import these models by:
@@ -19,7 +19,7 @@ To reproduce the experimental results in our paper, please refer to the folder `
 
 Taking `Overall Performance` as an example, the content of a project is shown in the figure below.
 
-<img src="https://github.com/ChengzhiPiao/GEDGNN/blob/main/content.png" width="500px">
+<img src="https://github.com/ChengzhiPiao/GEDGNN/blob/master/content.png" width="500px">
 
 ### Requirements
 
