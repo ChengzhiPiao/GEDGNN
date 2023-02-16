@@ -15,7 +15,7 @@ from kbest_matching_with_lb import KBestMSolver
 ```
 
 ## Project Running Guidelines
-To reproduce the experimental results in our paper, please refer to the folder `experiments/` which contains three projects (`Overall Performance`, `Path Results` and `Powerlaw Graphs`). The first two projects correspond to the experiments on real graph data sets, and the last one corresponds to the experiments on large-scale synthetic power-law graphs. They share the same core code but have slight differences in ground-truth generation and evaluation metrics.
+To reproduce the experimental results in our paper, please refer to the folder experiments/ which contains three projects (Overall Performance, Path Results and Powerlaw Graphs). The first two projects correspond to the experiments on real graph data sets in Table 3, Figure 3 and Figure 5 of the paper, and the last one corresponds to the experiments on large-scale synthetic power-law graphs in Figure 4 of the paper. They share the same core code but have slight differences in ground-truth generation and evaluation metrics.
 
 Taking `Overall Performance` as an example, the content of a project is shown in the figure below.
 
