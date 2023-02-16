@@ -52,7 +52,7 @@ python src/main.py --model-name GedGNN --dataset AIDS --model-epoch-start 20 --m
 
 `GedGNN` for the parameter `model-name` can be replaced by baseline models `SimGNN`, `GPN` and `TaGSim`.
 
-The way of running `Path Results` and `Powerlaw Graphs` projects are the same. The detailed running parameters for training, testing and post-processing can be found in `arg.txt` under each directory.
+The way of running `Path Results` and `Powerlaw Graphs` projects is the same. The detailed running parameters for training, testing and post-processing can be found in `arg.txt` under each directory.
 
 
 ## A Running Demo
